@@ -1,0 +1,66 @@
+footer {
+  padding: 60px 80px;
+  background-color: #0891b2;
+  display: flex;
+  gap: 20px;
+  color: white;
+
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    font-size: 1.2rem;
+    padding: 20px;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .phone-number,
+    .email {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      svg {
+        fill: white;
+        width: 30px;
+      }
+    }
+
+    .links-to-social {
+      display: flex;
+      gap: 30px;
+      img {
+        width: 40px;
+      }
+    }
+  }
+
+  > picture {
+    max-width: 60%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  footer {
+    flex-direction: column;
+    padding: 20px 0 0 0;
+    gap: 40px;
+    align-items: stretch;
+
+    picture {
+      max-width: 100%;
+    }
+  }
+}
