@@ -26,7 +26,6 @@ export default [
       'prefer-const': 'error',
       eqeqeq: ['error', 'always'],
       semi: ['error', 'always'],
-      quotes: ['error', 'single'],
       indent: ['error', 2],
       'prettier/prettier': [
         'error',
