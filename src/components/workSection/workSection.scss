@@ -1,5 +1,5 @@
 .works {
-  padding: 100px 80px;
+  padding: 100px var(--side-padding);
   h1 {
     margin-bottom: 10px;
     font-size: 2rem;
@@ -43,6 +43,14 @@
         color: #494949;
         grid-column: 1 / -1;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .works {
+    h1 {
+      text-align: center;
     }
   }
 }
